@@ -1,3 +1,12 @@
+from cmd import Cmd
+from enum import Enum
+from itertools import cycle
+import re
+import time
+import turtle
+import copy
+from queue import LifoQueue
+
 class Colour(Enum):
     RED = 1
     GREEN = 2
